@@ -1,0 +1,32 @@
+{
+    "name": "dan03/composer_test",
+    "description": "project for home work",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "illuminate/database": "^8.0",
+        "maatwebsite/excel": "^3.1",
+        "barryvdh/laravel-dompdf": "^2.0",
+        "twilio/sdk": "^7.11",
+        "laravel/socialite": "^5.9",
+        "aws/aws-sdk-php": "^3.283",
+        "league/flysystem-aws-s3-v3": "^3.16",
+        "yoomoney/yookassa-sdk-php": "^3.1",
+        "illuminate/cache": "^8.83"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dan03\\ComposerTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danila-Ivashchenko",
+            "email": "danil2003iva@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    }
+}
